@@ -45,7 +45,7 @@ main() {
 
   cd $BUILD_PATH
   
-  ensure git clone "https://github.com/Jon-Becker/heimdall-rs"
+  ensure git clone "https://github.com/mkumas/heimdall-rs"
 
   cd "heimdall-rs"
 
@@ -81,7 +81,7 @@ Available versions of Heimdall:
 Version                                   |   Tag                      |
 ----------------------------------------- | -------------------------- |
 EOF
-  git ls-remote --tags "https://github.com/Jon-Becker/heimdall-rs"
+  git ls-remote --tags "https://github.com/mkumas/heimdall-rs"
 }
 
 usage() {
