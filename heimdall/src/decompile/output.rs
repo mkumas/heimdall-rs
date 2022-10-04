@@ -397,10 +397,10 @@ pub fn build_output(
         
     }
 
-    // write_lines_to_file(
-    //     &decompiled_output_path,
-    //     decompiled_output
-    // );
-    //
-    // logger.info(&format!("wrote decompiled solidity to '{}' .", decompiled_output_path).to_string());
+    write_lines_to_file(
+         &decompiled_output_path,
+         decompiled_output
+    );
+
+    logger.info(&format!("wrote decompiled solidity to '{}' .", decompiled_output_path).to_string());
 }
